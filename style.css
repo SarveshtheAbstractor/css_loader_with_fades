@@ -2,10 +2,12 @@
   animation: spin 2s linear infinite;
   width: 200px;
   height: 200px;
-  position: absolute;
-  left: 40%;
-  top: 30%;
-  z-index: 1;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
 }
 @keyframes spin {
   0% {
